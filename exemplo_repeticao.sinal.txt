@@ -1,0 +1,15 @@
+[!] {
+    $! limite -> 5 ;
+    $! i -> 0 ;
+    
+    // Teste de laco de repeticao WHILE
+    @@ ( i < limite ) {
+        >> i ;
+        i -> i + 1 ;
+    }
+    
+    // Teste de laco de repeticao FOR
+    ## ( i -> 0 ; i < limite ; i + 1 ) {
+        >> i ;
+    }
+}

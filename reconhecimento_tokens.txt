@@ -1,0 +1,49 @@
+[!] -> ponto de entrada do programa (main: [!])
+{ -> abre chaves ({)
+$! -> tipo inteiro
+limite -> identificador
+-> -> atribuição (->)
+5 -> número/literal numérico
+; -> terminador ponto e vírgula (;)
+$! -> tipo inteiro
+i -> identificador
+-> -> atribuição (->)
+0 -> número/literal numérico
+; -> terminador ponto e vírgula (;)
+@@ -> comando de repetição (while: @@)
+( -> abre parênteses (()
+i -> identificador
+< -> operador relacional menor (<)
+limite -> identificador
+) -> fecha parênteses ())
+{ -> abre chaves ({)
+>> -> exibição de dados (cout: >>)
+i -> identificador
+; -> terminador ponto e vírgula (;)
+i -> identificador
+-> -> atribuição (->)
+i -> identificador
++ -> operador aritmético de soma (+)
+1 -> número/literal numérico
+; -> terminador ponto e vírgula (;)
+} -> fecha chaves (})
+## -> comando de repetição (for: ##)
+( -> abre parênteses (()
+i -> identificador
+-> -> atribuição (->)
+0 -> número/literal numérico
+; -> terminador ponto e vírgula (;)
+i -> identificador
+< -> operador relacional menor (<)
+limite -> identificador
+; -> terminador ponto e vírgula (;)
+i -> identificador
++ -> operador aritmético de soma (+)
+1 -> número/literal numérico
+) -> fecha parênteses ())
+{ -> abre chaves ({)
+>> -> exibição de dados (cout: >>)
+i -> identificador
+; -> terminador ponto e vírgula (;)
+} -> fecha chaves (})
+} -> fecha chaves (})

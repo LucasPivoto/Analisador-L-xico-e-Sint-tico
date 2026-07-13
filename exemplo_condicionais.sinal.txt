@@ -1,0 +1,22 @@
+[!] {
+    $! opcao -> 2 ;
+    $! a -> 10 ;
+    $! b -> 20 ;
+    
+    // Teste de condicional IF-ELSE
+    ?? ( a < b ) {
+        >> a ;
+    } !! {
+        >> b ;
+    }
+    
+    // Teste de condicional SWITCH-CASE
+    ?! ( opcao ) {
+        ?@ 1 :
+            >> a ;
+            ;.;
+        ?@ 2 :
+            >> b ;
+            ;.;
+    }
+}

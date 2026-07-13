@@ -1,0 +1,17 @@
+,, bibliotecaSistema
+[] CONSTANTE 100
+
+[!] {
+    // Declaracao de variaveis de diferentes tipos
+    $! idade ;
+    $@ preco -> 25.5 ;
+    $# letraInicial ;
+    
+    // Entrada e Saida de dados
+    >> preco ;
+    << idade ;
+    
+    // Operacoes aritmeticas basicas
+    $! resultado -> idade + CONSTANTE ;
+    >> resultado ;
+}
