@@ -1,0 +1,7 @@
+# Cache de compilação do Python
+__pycache__/
+*.pyc
+
+# Arquivos gerados automaticamente pelo PLY (Parser)
+parser.out
+parsetab.py
